@@ -16,3 +16,20 @@
   font-weight: bold;
   font-size: 1rem;
 }
+
+footer {
+  position: relative;
+}
+
+.dark-mode-button {
+  bottom: -83px;
+  right: 10px;
+  position: absolute;
+  background-color: var(--accent);
+  border: 1px solid var(--secondary);
+  border-radius: 3px;
+  width: 110px;
+  height: 20px;
+  z-index: 100;
+  cursor: pointer;
+}

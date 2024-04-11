@@ -20,6 +20,14 @@
   margin-left: -60px;
 }
 
+.dark-mode-button {
+  background-color: var(--accent);
+  border: 1px solid var(--secondary);
+  border-radius: 3px;
+  width: 110px;
+  height: 20px;
+}
+
 .navbar li {
   padding-left: 20px;
 }
