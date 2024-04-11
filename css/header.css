@@ -10,7 +10,7 @@
 }
 
 .navbar {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-start;
   padding-left: px;
   text-decoration: none;
