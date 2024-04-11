@@ -1,0 +1,18 @@
+.contact h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact ul {
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: var(--primary);
+  margin-bottom: 0;
+}
+
+.contact li {
+  font-weight: bold;
+  font-size: 1rem;
+}

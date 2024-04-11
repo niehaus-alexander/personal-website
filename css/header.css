@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--primary);
+  padding-left: 200px;
+  padding-right: 20px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: flex-start;
+  padding-left: px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  margin-left: -60px;
+}
+
+.navbar li {
+  padding-left: 20px;
+}
