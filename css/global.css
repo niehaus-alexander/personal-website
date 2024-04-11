@@ -4,30 +4,48 @@ body {
   font-size: 20px;
   margin: 0;
   color: var(--text);
+  transition: background-color var(--transition-duration) ease,
+    color var(--transition-duration) ease;
   /* padding: 100px; */
 }
 
 a {
   color: var(--text);
   text-decoration: none;
+  transition: color var(--transition-duration) ease;
 }
 
 :root {
-  --text: #0d0b0b;
-  --background: #f7f4f4;
-  --primary: #a56c63;
-  --secondary: #d5ada7;
-  --accent: #c98076;
+  --text: #0a0d0f;
+  --background: #f6f7f9;
+  --primary: #6e8ea0;
+  --secondary: #a9a9c7;
+  --accent: #928db4;
+  --transition-duration: 2s;
 }
+/* :root {
+    --text: #0d0b0b;
+    --background: #f7f4f4;
+    --primary: #a56c63;
+    --secondary: #d5ada7;
+    --accent: #c98076;
+    --transition-duration: 2s;
+  }  */
 
 .dark-mode {
-  --text: #eae9fc;
-  --background: #010104;
-  --primary: #9b6059;
-  --secondary: #562f29;
-  --accent: #873f36;
+  --text: #f0f3f5;
+  --background: #060709;
+  --primary: #5f7f91;
+  --secondary: #383856;
+  --accent: #504b72;
 }
-
+/* .dark-mode {
+    --text: #eae9fc;
+    --background: #010104;
+    --primary: #9b6059;
+    --secondary: #562f29;
+    --accent: #873f36;
+  } */
 ul {
   list-style-type: none;
 }
